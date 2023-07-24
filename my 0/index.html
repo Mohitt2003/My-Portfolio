@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="./medy.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #03060a;
+            color: #DCD6F7;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: #090d13;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #DCD6F7;
+        }
+
+        nav ul li a:hover {
+            color: #a085eb;
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #677892;
+            height: 1.1px;
+            margin: 45px 85px
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin: 75px 0;
+        }
+
+        .rightSection img {
+            width: 85%;
+            margin: 10%;
+        }
+
+        .text-purple {
+            color: #755bbd;
+        }
+
+        .text-gray {
+            color: grey;
+            margin: 3;
+        }
+
+        #element {
+            color: #755bbd;
+        }
+
+        /* Second Section */
+        .secondSection {
+            max-width: 89vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        .secondSection h1 {
+            font-size: 2.01rem;
+            margin: 3;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 1.2px;
+            margin: 90px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 118px;
+        }
+
+        .one-top {
+            width: 66px;
+            position: relative;
+            top: -69px;
+            left: -30px;
+        }
+
+        .vertical-txt {
+            position: relative;
+            top: 18px;
+            left: -64px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            width: 185px;
+            top: 17px;
+            left: -63px;
+            color: #504c4c;
+        }
+
+
+/* Third Section */
+        .ThirdSection {
+            max-width: 89vw;
+            margin: auto;
+            height: 70vh;
+        }
+        .ThirdSection h1 {
+            font-size: 2.01rem;
+            margin: 3;
+        }
+
+        .ThirdSection .box {
+            background: white;
+            width: 70vw;
+            height: 1.2px;
+            margin: 90px 0;
+            display: flex;
+        }
+
+        .ThirdSection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 118px;
+        }
+
+        .two-top {
+            width: 66px;
+            position: relative;
+            top: -69px;
+            left: -30px;
+        }
+
+        .verticalOne-txt {
+            position: relative;
+            top: 18px;
+            left: -64px;
+            width: 150px;
+            font-size: 20px;
+            margin: 26px;
+        }
+
+        .verticalOne-desc {
+            position: relative;
+            width: 185px;
+            top: 17px;
+            left: -63px;
+            color: #504c4c;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Mohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Achivements</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey, <span class="text-purple">Welcome</span>
+                <div>I am Mohit
+                    <br>And I'm a
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="./img/bg.png" alt="img.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What we done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="one-top" src="img/1.png" alt="">
+                    <div class="vertical-txt">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="one-top" src="img/2.png" alt="">
+                    <div class="vertical-txt">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="one-top" src="img/3.png" alt="">
+                    <div class="vertical-txt">
+                        JAVA Programmer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="one-top" src="img/4.png" alt="">
+                    <div class="vertical-txt">
+                        C Programmer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+        </section>
+        <hr>
+
+
+        <section class="ThirdSection">
+            <span class="text-gray">This is what i made</span>
+            <h1>Sociac media</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="two-top" src="media/1.png" alt="">
+                    <div class="verticalOne-txt">
+                        <strong>InstaGram </strong>
+                    </div>
+                    <div class="verticalOne-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="two-top" src="media/2.png" alt="">
+                    <div class="verticalOne-txt">
+                        What'sApp
+                    </div>
+                    <div class="verticalOne-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="two-top" src="media/3.png" alt="">
+                    <div class="verticalOne-txt">
+                        Snapchatt
+                    </div>
+                    <div class="verticalOne-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="two-top" src="media/4.png" alt="">
+                    <div class="verticalOne-txt">
+                        YouTube
+                    </div>
+                    <div class="verticalOne-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque voluptas quidem
+                        praesentium
+                        corporis quae delectus natus tempora ut, quia quibusdam ex laborum perferendis et repudiandae?
+                        Atque,
+                        voluptate distinctio. Delectus?
+                    </div>
+                </div>
+        </section>
+    </main>
+
+     <footer>
+        <nav>
+            <div class="left"> Mohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Achivements</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Developer', 'Editor', '&amp; Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
